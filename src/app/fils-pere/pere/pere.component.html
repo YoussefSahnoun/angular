@@ -1,0 +1,11 @@
+<div class="styled-div" [style.backgroundColor]="fatherColor">
+  HELLO FISTON
+</div>
+
+<app-fils 
+   (sendrequest)="processreq($event)" 
+   [filsproperty]="fatherColor"></app-fils>
+
+<div class="styled-div" [style.backgroundColor]="favcolor">
+  La couleur préférée de mon fils est {{favcolor}}
+</div>

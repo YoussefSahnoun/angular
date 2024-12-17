@@ -1,0 +1,9 @@
+img {
+    max-width: 500px; /* Set the maximum width (adjust as needed) */
+    max-height: 300px; /* Set the maximum height (adjust as needed) */
+    width: auto; /* Maintain aspect ratio */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ddd; /* Optional: Add a border */
+    border-radius: 8px; /* Optional: Add rounded corners */
+  }
+  
